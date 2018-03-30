@@ -33,11 +33,11 @@ include('header.php');
                         <div class="card card-profile">
                             <div class="card-avatar">
                                 <a href="#pablo">
-                                    <img class="img" src="assets/img/faces/alexander.jpg" alt="Profile photo"/>
+                                    <img class="img" src="assets/img/faces/marc.jpg" alt="Profile photo"/>
                                 </a>
                             </div>
                             <div class="content">
-                                <h4 class="title">Scheduler</h4>
+                                <h4 class="title">Engineer</h4>
                                 <br>
                             </div>
                             <div class="clearfix"></div>
@@ -54,7 +54,7 @@ include('header.php');
                                         <div class="col-md-10 col-md-offset-1">
                                             <div class="form-group label-floating">
                                                 <label class="control-label">Employee ID</label>
-                                                <input type="text" name="username" class="form-control" value="SH-1234567" disabled>
+                                                <input type="text" name="username" class="form-control" value="EN-0000001" disabled>
                                             </div>
                                         </div>
                                     </div>
@@ -62,13 +62,13 @@ include('header.php');
                                         <div class="col-md-4 col-md-offset-1">
                                             <div class="form-group label-floating">
                                                 <label class="control-label">First Name</label>
-                                                <input type="text" name="firstName" class="form-control" value="Alexander" disabled>
+                                                <input type="text" name="firstName" class="form-control" value="John" disabled>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-md-offset-2">
                                             <div class="form-group label-floating">
                                                 <label class="control-label">Last Name</label>
-                                                <input type="text" name="lastName" class="form-control" value="Chua" disabled>
+                                                <input type="text" name="lastName" class="form-control" value="Doe" disabled>
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@ include('header.php');
                                         <div class="col-md-4 col-md-offset-2">
                                             <div class="form-group label-floating">
                                                 <label class="control-label">Email</label>
-                                                <input type="text" name="email" class="form-control" value="alexander_chua@gmail.com" disabled>
+                                                <input type="text" name="email" class="form-control" value="john_doe@gmail.com" disabled>
                                             </div>
                                         </div>
                                     </div>
@@ -106,13 +106,13 @@ include('header.php');
                                         <div class="col-md-4 col-md-offset-1">
                                             <div class="form-group label-floating">
                                                 <label class="control-label">First Name</label>
-                                                <input type="text" name="firstName" class="form-control" value="Clarabelle" disabled>
+                                                <input type="text" name="firstName" class="form-control" value="Arielle" disabled>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-md-offset-2">
                                             <div class="form-group label-floating">
                                                 <label class="control-label">Last Name</label>
-                                                <input type="text" name="lastName" class="form-control" value="Wins" disabled>
+                                                <input type="text" name="lastName" class="form-control" value="Jekins" disabled>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@ include('header.php');
                                         <div class="col-md-4 col-md-offset-2">
                                             <div class="form-group label-floating">
                                                 <label class="control-label">Email</label>
-                                                <input type="text" name="email" class="form-control" value="clarabelle_wins@gmail.com" disabled>
+                                                <input type="text" name="email" class="form-control" value="arielle_jekins@gmail.com" disabled>
                                             </div>
                                         </div>
                                     </div>

@@ -1,3 +1,3 @@
 <a href="index.php">
-    Welcome, Scheduler Alexander Chua! 
+    Welcome, Engineer John Doe! 
 </a>
