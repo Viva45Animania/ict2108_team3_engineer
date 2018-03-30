@@ -364,6 +364,17 @@ tr.rowTest {
     width: 120px;
 }
 
+.btn-outline-danger{
+    background: #FFFFFF;
+    border-color: #f44336;
+    color: red
+}
+
+.btn-outline-danger:hover{
+    background: #f44336;
+    color: white;
+}
+
 .amountpaylabel {
     color: black !important;
     font-weight: 700 !important;

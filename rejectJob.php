@@ -53,17 +53,6 @@ include('header.php');
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td class="danger">1 - Urgent</td>
-                                                <td>Edinburgh</td>
-                                                <td><a href="jobDetail.php?jobid=#0100">#0100</a></td>
-                                                <td>Type 6</td>
-                                                <td>28/03/18 09:00AM</td>
-                                                <td>
-                                                    <a href="acceptJob.php?jobid=#0100" class="btn button btn-round">Accept</a>
-                                                    <a href="rejectJob.php?jobid=#0100" class="btn button btn-danger btn-round">Reject</a>
-                                                </td>
-                                            </tr>
                                             
                                             <tr>
                                                 <td class="danger">1 - Urgent</td>
@@ -73,7 +62,7 @@ include('header.php');
                                                 <td>29/03/18 09:00AM</td>
                                                 <td>
                                                     <a href="acceptJob.php?jobid=#0101" class="btn button btn-round">Accept</a>
-                                                    <a class="btn btn-danger button btn-round">Reject</a>
+                                                    <a href="assign.php?jobid=#0101" class="btn btn-danger button btn-round">Reject</a>
                                                 </td>
                                             </tr>
                                             
@@ -85,7 +74,7 @@ include('header.php');
                                                 <td>29/03/18 09:00AM</td>
                                                 <td>
                                                     <a href="acceptJob.php?jobid=#0102" class="btn button btn-round">Accept</a>
-                                                    <a class="btn btn-danger button btn-round reject">Reject</a>
+                                                    <a href="assign.php?jobid=#0102" class="btn btn-danger button btn-round">Reject</a>
                                                 </td>
                                             </tr>
                                             
@@ -97,7 +86,7 @@ include('header.php');
                                                 <td>22/03/18 09:00AM</td>
                                                 <td>
                                                     <a href="acceptJob.php?jobid=#0103" class="btn button btn-round">Accept</a>
-                                                    <a class="btn btn-danger button btn-round reject">Reject</a>
+                                                    <a href="assign.php?jobid=#0103" class="btn btn-danger button btn-round">Reject</a>
                                                 </td>
                                             </tr>
                                             
@@ -109,7 +98,7 @@ include('header.php');
                                                 <td>20/03/18 09:00AM</td>
                                                 <td>
                                                     <a href="acceptJob.php?jobid=#0105" class="btn button btn-round">Accept</a>
-                                                    <a class="btn btn-danger button btn-round reject">Reject</a>
+                                                    <a href="assign.php?jobid=#0105" class="btn btn-danger button btn-round">Reject</a>
                                                 </td>
                                             </tr> 
                                         </tbody>
@@ -118,18 +107,12 @@ include('header.php');
                             </form>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<script>
-        function deleteRow(r) {
-            var i = r.parentNode.parentNode.rowIndex;
-            document.getElementById("myTable").deleteRow(i);
-        }
-    </script>
 
 <?php 
 include('footer.php');
