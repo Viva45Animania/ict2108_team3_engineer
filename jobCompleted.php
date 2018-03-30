@@ -13,7 +13,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="jobAssigned.php"><i class="material-icons">done_all</i> Assigned Jobs </a>
+                    <a class="navbar-brand" href="jobCompleted.php"><i class="material-icons">done_all</i> Completed Jobs </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -30,8 +30,8 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header" data-background-color="blue">
-                                <h4 class="title">Assigned Jobs</h4>
-                                <p class="category">List of Assigned Jobs</p>
+                                <h4 class="title">Completed Jobs</h4>
+                                <p class="category">List of Completed Jobs</p>
                             </div>
                             <div class="card-content">
                                 <form method="POST">
@@ -42,8 +42,8 @@
                                                     <th rowspan="2">Job Status</th>
                                                     <th rowspan="2">Urgency</th>
                                                     <th rowspan="2">Job No.</th>
-                                                    <th rowspan="2">Engineer Name</th>
                                                     <th rowspan="2">Location</th>
+                                                    <th rowspan="2">Traveling Time</th>
                                                     <th></th>
                                                     
                                                 </tr>
@@ -53,92 +53,29 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>.Pending</td>
+                                                    <td>Completed</td>
                                                     <td class="danger">1 - Urgent</td>
-                                                    <td><a href="pendingJobDetail.php?jobid=#0051">#0051</a></td>
-                                                    <td>John Doe</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0051">#0051</a></td>
                                                     <td>Princeton Road</td>
+                                                    <td>1 Hours</td>
                                                     <td>Type 5</td>
                                                 </tr>
 
                                                 <tr>
-                                                    <td>.Pending</td>
+                                                    <td>Completed</td>
                                                     <td class="danger">1 - Urgent</td>
-                                                    <td><a href="pendingJobDetail.php?jobid=#0052">#0052</a></td>
-                                                    <td>David Jarvis</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0052">#0052</a></td>
                                                     <td>Clarence Road</td>
+                                                    <td>2 Hours</td>
                                                     <td>Type 10</td>
                                                 </tr>
-
-                                                <tr>
-                                                    <td>.Pending</td>
-                                                    <td class="warning">2 - Average</td>
-                                                    <td><a href="pendingJobDetail.php?jobid=#0053">#0053</a></td>
-                                                    <td>Samuel James</td>
-                                                    <td>Dover Drive</td>
-                                                    <td>Type 10</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>.Pending</td>
-                                                    <td class="success">3 - Normal</td>
-                                                    <td><a href="pendingJobDetail.php?jobid=#0054">#0054</a></td>
-                                                    <td>Joel Jarvis</td>
-                                                    <td>Fwahla Tone Road</td>
-                                                    <td>Type 6</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>.Pending</td>
-                                                    <td class="success">3 - Normal</td>
-                                                    <td><a href="pendingJobDetail.php?jobid=#0055">#0055</a></td>
-                                                    <td>James Writes</td>
-                                                    <td>Balestier Road</td>
-                                                    <td>Type 7</td>
-                                                </tr> 
-                                                
-                                                <tr>
-                                                    <td>Completed</td>
-                                                    <td class="success">3 - Normal</td>
-                                                    <td><a href="completedJobDetail.php?jobid=#0001">#0001</a></td>
-                                                    <td>James Writes</td>
-                                                    <td>Princeton Road</td>
-                                                    <td>Type 5</td>
-                                                </tr> 
-                                                
-                                                <tr>
-                                                    <td>Completed</td>
-                                                    <td class="warning">3 - Normal</td>
-                                                    <td><a href="completedJobDetail.php?jobid=#0098">#0098</a></td>
-                                                    <td>Felix James</td>
-                                                    <td>Gem White Road</td>
-                                                    <td>Type 6</td>
-                                                </tr> 
-                                                
-                                                <tr>
-                                                    <td>Completed</td>
-                                                    <td class="warning">2 - Average</td>
-                                                    <td><a href="completedJobDetail.php?jobid=#0072">#0072</a></td>
-                                                    <td>Felix James</td>
-                                                    <td>Houseton White Road</td>
-                                                    <td>Type 10</td>
-                                                </tr> 
-                                                
-                                                <tr>
-                                                    <td>Completed</td>
-                                                    <td class="warning">2 - Average</td>
-                                                    <td><a href="completedJobDetail.php?jobid=#0008">#0008</a></td>
-                                                    <td>Felix James</td>
-                                                    <td>Housetone White Road</td>
-                                                    <td>Type 6</td>
-                                                </tr> 
                                                 
                                                 <tr>
                                                     <td>Completed</td>
                                                     <td class="danger">1 - Urgent</td>
                                                     <td><a href="completedJobDetail.php?jobid=#0007">#0007</a></td>
-                                                    <td>Sarah James</td>
                                                     <td>Princeton Road</td>
+                                                    <td>2.5 Hours</td>
                                                     <td>Type 3</td>
                                                 </tr> 
                                                 
@@ -146,8 +83,8 @@
                                                     <td>Completed</td>
                                                     <td class="danger">1 - Urgent</td>
                                                     <td><a href="completedJobDetail.php?jobid=#0002">#0002</a></td>
-                                                    <td>Sarah James</td>
                                                     <td>Housetone White Road</td>
+                                                    <td>0.5 Hours</td>
                                                     <td>Type 2</td>
                                                 </tr> 
                                                 
@@ -155,11 +92,73 @@
                                                     <td>Completed</td>
                                                     <td class="danger">1 - Urgent</td>
                                                     <td><a href="completedJobDetail.php?jobid=#0081">#0081</a></td>
-                                                    <td>Sam James</td>
                                                     <td>Princeton Road</td>
+                                                    <td>0.5 Hours</td>
                                                     <td>Type 1</td>
                                                 </tr> 
+
+                                                <tr>
+                                                    <td>Completed</td>
+                                                    <td class="warning">2 - Average</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0053">#0053</a></td>
+                                                    <td>Dover Drive</td>
+                                                    <td>0.5 Hours</td>
+                                                    <td>Type 10</td>
+                                                </tr>
                                                 
+                                                <tr>
+                                                    <td>Completed</td>
+                                                    <td class="warning">2 - Average</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0072">#0072</a></td>
+                                                    <td>Houseton White Road</td>
+                                                    <td>2 Hours</td>
+                                                    <td>Type 10</td>
+                                                </tr> 
+                                                
+                                                <tr>
+                                                    <td>Completed</td>
+                                                    <td class="warning">2 - Average</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0008">#0008</a></td>
+                                                    <td>Housetone White Road</td>
+                                                    <td>1 Hours</td>
+                                                    <td>Type 6</td>
+                                                </tr> 
+
+                                                <tr>
+                                                    <td>Completed</td>
+                                                    <td class="success">3 - Normal</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0054">#0054</a></td>
+                                                    <td>Fwahla Tone Road</td>
+                                                    <td>2 Hours</td>
+                                                    <td>Type 6</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Completed</td>
+                                                    <td class="success">3 - Normal</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0055">#0055</a></td>
+                                                    <td>Balestier Road</td>
+                                                    <td>1 Hours</td>
+                                                    <td>Type 7</td>
+                                                </tr> 
+                                                
+                                                <tr>
+                                                    <td>Completed</td>
+                                                    <td class="success">3 - Normal</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0001">#0001</a></td>
+                                                    <td>Princeton Road</td>
+                                                    <td>1.5 Hours</td>
+                                                    <td>Type 5</td>
+                                                </tr> 
+                                                
+                                                <tr>
+                                                    <td>Completed</td>
+                                                    <td class="success">3 - Normal</td>
+                                                    <td><a href="completedJobDetail.php?jobid=#0098">#0098</a></td>
+                                                    <td>Gem White Road</td>
+                                                    <td>2.5 Hours</td>
+                                                    <td>Type 6</td>
+                                                </tr> 
                                             </tbody>
                                         </table>
                                     </div>
