@@ -20,17 +20,10 @@
                 </a>
             </li>
             
-            <li <?php if (strpos($_SERVER['SCRIPT_NAME'], 'create.php') !== false) : ?>class="active"<?php endif; ?>>
-                <a href="create.php">
-                    <i class="fa fa-plus" aria-hidden="true"></i>
-                    <p>Create New Jobs</p>
-                </a>
-            </li>
-            
-            <li <?php if (strpos($_SERVER['SCRIPT_NAME'], 'jobAssigned.php') !== false) : ?>class="active"<?php endif; ?>>
-                <a href="jobAssigned.php">
+            <li <?php if (strpos($_SERVER['SCRIPT_NAME'], 'jobCompleted.php') !== false) : ?>class="active"<?php endif; ?>>
+                <a href="jobCompleted.php">
                     <i class="material-icons">done_all</i>
-                    <p>View Assigned Jobs</p>
+                    <p>View Completed Jobs</p>
                 </a>
             </li>
             
