@@ -77,7 +77,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         </div>
                                     </div>
                                     
-                                    <hr><br>
+                                    <br>
                                     
                                     <div class="row">
                                         <div class="col-md-10 col-md-offset-1">

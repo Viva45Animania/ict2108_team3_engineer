@@ -3,12 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/xampp/htdocs/ict2108_team3_scheduler/jobAssigned.php</file>
-            <file>file:/D:/xampp/htdocs/ict2108_team3_scheduler/jobPending.php</file>
-            <file>file:/D:/xampp/htdocs/ict2108_team3_scheduler/index.php</file>
-            <file>file:/D:/xampp/htdocs/ict2108_team3_scheduler/assign.php</file>
-            <file>file:/D:/xampp/htdocs/ict2108_team3_scheduler/create.php</file>
-            <file>file:/D:/xampp/htdocs/ict2108_team3_scheduler/footer.php</file>
+            <file>file:/Users/JeromeRodrigues/Documents/GitHub/ict2108_team3_engineer/acceptJob.php</file>
+            <file>file:/Users/JeromeRodrigues/Documents/GitHub/ict2108_team3_engineer/updateJobStatus.php</file>
+            <file>file:/Users/JeromeRodrigues/Documents/GitHub/ict2108_team3_engineer/index.php</file>
+            <file>file:/Users/JeromeRodrigues/Documents/GitHub/ict2108_team3_engineer/rejectJob.php</file>
         </group>
     </open-files>
 </project-private>
